@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "ballooning",
+	"version": "${version}",
+	"name": "Ballooning",
+	"description": "Anything you can lead can become a balloon with a Magical Lead found in Vaults!",
+	"authors": [
+		"Bug1312"
+	],
+	"contact": {
+		"sources": "https://github.com/bug1312/ballooning"
+	},
+	"license": "MIT",
+	"icon": "assets/ballooning/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.bug1312.ballooning.Ballooning"
+		]
+	},
+	"mixins": [
+		"ballooning.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21-",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
