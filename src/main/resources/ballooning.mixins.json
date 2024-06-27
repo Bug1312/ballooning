@@ -3,7 +3,9 @@
 	"package": "com.bug1312.ballooning.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"EntityMixin"
+		"EntityMixin",
+		"PlayerListMixin",
+		"ServerPlayerMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
